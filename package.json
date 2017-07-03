@@ -2,7 +2,7 @@
   "name": "backwardsbot",
   "version": "1.0.0",
   "description": "My first microsoft bot framework bot. says things back to you backwards",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
