@@ -1,0 +1,15 @@
+{
+  "name": "backwardsbot",
+  "version": "1.0.0",
+  "description": "My first microsoft bot framework bot. says things back to you backwards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.8.4",
+    "restify": "^5.0.0"
+  }
+}
