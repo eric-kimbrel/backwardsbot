@@ -10,7 +10,7 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
 });
 
 // serve index.html at the root so we can see that the app is up
-server.get(/.*/, restify.serveStatic({ 'directory': '.', 'default': 'index.html' }));
+server.get(/.*/, restify.plugins.serveStatic({ 'directory': '.', 'default': 'index.html' }));
 
 // Create chat connector for communicating with the Bot Framework Service
 var connector = new builder.ChatConnector({
